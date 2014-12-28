@@ -1,0 +1,19 @@
+{
+  "name": "methane",
+  "version": "0.0.1",
+  "description": "Meta programming in JavaScript like Proxy shim",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watilde/methane.git"
+  },
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watilde/methane/issues"
+  },
+  "homepage": "https://github.com/watilde/methane"
+}
