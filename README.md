@@ -1,4 +1,4 @@
-methane
+Proxyz
 =======
 
-Meta programming in JavaScript like Proxy shim
+A shim of Direct Proxies for meta programming in JavaScript
