@@ -1,5 +1,6 @@
 var methane = function (receiver, handler) {
-  var Proxy = window.Proxy || false;
+  var window = window || global || {};
+  var Proxy = global.Proxy || false;
   if (Proxy) {
     return Proxy(receiver, handler);
   }
