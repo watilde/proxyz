@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/watilde/methane/issues"
   },
-  "homepage": "https://github.com/watilde/methane"
+  "homepage": "https://github.com/watilde/methane",
+  "devDependencies": {
+    "harmony-reflect": "^1.1.1"
+  }
 }
