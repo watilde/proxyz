@@ -1,21 +1,21 @@
 {
-  "name": "methane",
+  "name": "proxyz",
   "version": "0.0.1",
-  "description": "Meta programming in JavaScript like Proxy shim",
+  "description": "A shim of Direct Proxies for meta programming in JavaScript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/watilde/methane.git"
+    "url": "https://github.com/watilde/proxyz.git"
   },
   "author": "Daijiro Wachi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/watilde/methane/issues"
+    "url": "https://github.com/watilde/proxyz/issues"
   },
-  "homepage": "https://github.com/watilde/methane",
+  "homepage": "https://github.com/watilde/proxyz",
   "devDependencies": {
     "harmony-reflect": "^1.1.1"
   }

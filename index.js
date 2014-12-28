@@ -1,4 +1,4 @@
-var methane = function (receiver, handler) {
+var Proxyz = function (receiver, handler) {
   var target = Object.create(receiver, {
     set: {
       writable: false,
@@ -77,4 +77,4 @@ var methane = function (receiver, handler) {
 };
 
 var handler = function () {};
-var foo = methane({}, handler);
+var foo = new Proxyz({}, handler);
