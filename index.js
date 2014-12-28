@@ -26,6 +26,17 @@ var methane = function (receiver, handler) {
         }
         return handler.get(target, name, receiver);
       }
+    },
+    keys: {
+      writable: false,
+      enumerable: false,
+      configurable: false,
+      value: function (proxy) {
+        if (!handler.keys) {
+          return Object.keys(proxy);
+        }
+        return handler.keys(proxy);
+      }
     }
   });
 
