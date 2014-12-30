@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/watilde/proxyz",
   "devDependencies": {
+    "browserify": "^8.0.2",
     "harmony-reflect": "^1.1.1"
   }
 }
